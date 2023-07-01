@@ -1,1 +1,1 @@
-This is my data analyst website portfolio
+This is my data analyst website portfolio.
