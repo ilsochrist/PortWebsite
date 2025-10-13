@@ -60,12 +60,12 @@
 
     <p>
         <strong>1. Configuração no Azure:</strong><br>
-        O primeiro passo envolveu a criação e configuração do recurso **Azure AI Vision** (Cognitive Service) no portal do Azure, garantindo a obtenção segura do *Endpoint* e das Chaves de acesso necessárias para a comunicação via API.
+        O primeiro passo envolveu a criação e configuração do recurso Azure AI Vision (Cognitive Service) no portal do Azure, garantindo a obtenção segura do *Endpoint* e das Chaves de acesso necessárias para a comunicação via API.
     </p>
 
     <p>
         <strong>2. Extração de Texto com OCR ('Read'):</strong><br>
-        No ambiente **Python**, o SDK do Azure AI Vision foi utilizado para aplicar o serviço de **Reconhecimento Óptico de Caracteres (OCR)**, especificamente o recurso 'Read'. Este recurso é otimizado para extrair todo o texto da imagem, incluindo o corpo da receita do "Bolo de Leite".
+        No ambiente Python, o SDK do Azure AI Vision foi utilizado para aplicar o serviço de Reconhecimento Óptico de Caracteres (OCR), especificamente o recurso 'Read'. Este recurso é otimizado para extrair todo o texto da imagem, incluindo o corpo da receita do "Bolo de Leite".
     </p>
 
     <p>
@@ -73,7 +73,7 @@
         O código implementou uma camada de pós-processamento para transformar o texto bruto do OCR em dados utilizáveis. Isso incluiu:
         <ul>
             <li>Identificação e separação do Título, Ingredientes e Modo de Preparo (Processamento e Estruturação).</li>
-            <li>**Destaque:** Implementação de regras de tratamento de texto para garantir que caracteres especiais, como o símbolo de **graus Celsius (°C)**, fossem corretamente reconhecidos e formatados, garantindo a integridade das instruções.</li>
+            <li>**Destaque:** Implementação de regras de tratamento de texto para garantir que caracteres especiais, como o símbolo de graus Celsius (°C), fossem corretamente reconhecidos e formatados, garantindo a integridade das instruções.</li>
         </ul>
         O resultado foi uma receita lida, processada e exibida de forma organizada no terminal.
     </p>
