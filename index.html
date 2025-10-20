@@ -43,7 +43,65 @@
 
 				<!-- Main -->
 					<div id="main">
+<article class="post featured">
+	<header class="major">
+		<span class="date">20 de Outubro de 2025</span>
+		<h2><a href="#">Azure AI Exam Analysis</a></h2>
+<header>
+	<p>
+			Azure AI Exam Analysis, utilizando: Microsoft Azure, Azure AI Vision (OCR 'Read'), Python, Azure AI Vision SDK para Python, python-dotenv, Módulos Nativos do Python (os, sys, re).
+		</p>
 
+    <p>
+        <strong>Objetivo:</strong> Instituições de saúde e pacientes acumulam anos de exames em formato PDF. Esses documentos contêm informações vitais, mas são, em essência, "silos de dados" difíceis de consultar, comparar e analisar em conjunto. Como poderíamos destravar o valor contido neles de forma escalável?
+
+    </p>
+
+    <p>
+        <strong>A Solução:</strong><br>
+      	Para resolver esse problema, implementei uma arquitetura de dados inteligente na nuvem da Microsoft Azure. 
+    </p>
+
+    <p>
+        <strong>1. Centralização em um Data Hub Seguro::</strong><br>
+        Um repositório central foi criado no Azure Blob Storage.
+    </p>
+
+    <p>
+        <strong>2. Extração Inteligente com IA:</strong><br>
+        Utilizei o Azure Document Intelligence para "ler" cada PDF de forma segura através das URLs SAS. O serviço de IA é treinado para identificar e extrair com precisão os dados-chave de cada exame: nome do paciente, datas, tipo de exame, métricas, resultados, etc.
+    </p>
+
+	
+    <p>
+        <strong>3. Estruturação dos Dados:</strong><br>
+       coloquei as informações extraídas e agora estruturadas em um arquivo CSV padronizado. O arquivo ('resultados_exames.csv') é o resultado final, pronto para ser depositado em outro container no Blob Storage. 
+
+    </p>
+
+	
+    <p>
+        <strong>4. Extração Inteligente com IA:</strong><br>
+        Utilizei o Azure Document Intelligence para "ler" cada PDF de forma segura através das URLs SAS. O serviço de IA é treinado para identificar e extrair com precisão os dados-chave de cada exame: nome do paciente, datas, tipo de exame, métricas, resultados, etc.
+    </p>
+	
+<p>
+Transformei um processo manual e demorado em um pipeline de dados automatizado, convertendo arquivos estáticos em insights acionáveis. Isso não apenas otimiza a gestão da informação, mas também abre um enorme potencial para análises preditivas e um cuidado ao paciente muito mais proativo e baseado em dados.
+
+</p>
+</header>
+
+	<video controls poster="images/Receita.png" width="100%" height="100%">
+		<source src="images/Cake.mp4" type="video/mp4">
+		<source src="images/Cake.webm" type="video/webm">
+		<source src="images/Cake.ogg" type="video/ogg">
+		<object>
+			<embed src="images/Receita.swf" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always">
+		</object>
+		Formato não suportado
+	</video>
+</article>
+						
 		<!-- Featured Post -->
 <article class="post featured">
 	<header class="major">
@@ -70,7 +128,7 @@
 
     <p>
         <strong>3. Processamento e Estruturação (Tratamento da Camada de Dados Brutos):</strong><br>
-O código implementou uma camada de pós-processamento para transformar o texto bruto do OCR em dados utilizáveis. Isso incluiu:
+Foi implementado uma camada de pós-processamento para transformar o texto bruto do OCR em dados utilizáveis. Isso incluiu:
 <p>
     &bull; Identificação e separação do Título, Ingredientes e Modo de Preparo (Processamento e Estruturação).<br>
     &bull; Destaque: Implementação de regras de tratamento de texto para garantir que caracteres especiais, como o símbolo de graus Celsius (°C), fossem corretamente reconhecidos e formatados, garantindo a integridade das instruções.
