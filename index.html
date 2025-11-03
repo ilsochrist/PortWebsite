@@ -49,6 +49,57 @@
 		<h2><a href="#">Azure AI Exam Analysis</a></h2>
 <header>
 	<p>
+			Data Lakehouse Medallion: Sentimento e Governança com Databricks.
+		</p>
+
+    <p>
+        <strong>Objetivo:</strong> Implementar um Data Lakehouse escalável e seguro para transformar dados brutos de notícias/streams em insights acionáveis, utilizando a arquitetura Medallion para governança e qualidade.
+    </p>
+
+    <p>
+        <strong>A Solução:</strong><br>
+      	A Arquitetura Medallion foi implementada para garantir a confiabilidade e governança dos dados em todo o pipeline, com foco em segurança e controle de acesso por camada.. 
+    </p>
+
+    <p>
+        <strong>1. Bronze (Raw):</strong><br>
+        Função: Ingestão de dados brutos e imutáveis. Resultado: Fonte de verdade para auditoria e reprocessamento.
+    </p>
+
+    <p>
+        <strong>2. Silver (Cleaned & Enriched):</strong><br>
+       Função: Limpeza, padronização e enriquecimento do dado. Enriquecimento: Implementação de UDFs para Análise de Sentimento e engenharia de features (ex: Top Keywords, Nível de Complexidade). Qualidade: Monitoramento da Latência de Ingestão e aplicação de regras de Qualidade de Dados.
+	
+    <p>
+        <strong>3. Gold (Curated & Consumption):</strong><br>
+      Função: Modelagem final do dado, otimizado para leitura. Consumo: Dados estruturados prontos para a criação de dashboards e relatórios no Power BI. Impacto: Transformação de dados textuais não estruturados em KPIs de negócio (Sentimento) através de um pipeline automatizado com Databricks Jobs, garantindo que as decisões de BI sejam baseadas em dados seguros e de alta qualidade.
+
+    </p>
+
+	
+<p>
+Concluímos com sucesso a transformação de dados brutos e complexos em informação estruturada (Delta Lake), e foi consumido de forma estratégica e escalável pelo Power BI. Este pipeline estabelece a fundação para análises avançadas e tomadas de decisão proativas baseadas em fatos.
+
+</p>
+</header>
+
+	<video controls poster="images/noticias.png" width="100%" height="100%">
+		<source src="images/noticias.mp4" type="video/mp4">
+		<source src="images/noticias.webm" type="video/webm">
+		<source src="images/noticias.ogg" type="video/ogg">
+		<object>
+			<embed src="images/noticias.swf" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always">
+		</object>
+		Formato não suportado
+	</video>
+</article>		
+						
+<article class="post featured">
+	<header class="major">
+		<span class="date">20 de Outubro de 2025</span>
+		<h2><a href="#">Azure AI Exam Analysis</a></h2>
+<header>
+	<p>
 			Azure AI Exam Analysis, utilizando: Power BI, Azure AI Document Intelligence, Azure Blob Storage, Python, o SDK Python azure-ai-formrecognizer, e as bibliotecas Python csv, os, e python-dotenv.
 		</p>
 
@@ -255,51 +306,7 @@ O CENIPA investiga todos os acidentes aéreos no Brasil, desde o gravador de voo
 							</article>
 
 								</header>
-						
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">25 de Junho de 2023</span>
-									<h2><a href="#">BI Marketing<br /></a></h2>
-									<p>Dashboard construído para compreender a performance de campanhas de marketing de uma empresa fictícia por diferentes ângulos, 
-										usando dados fictícios para este trabalho. Foram utilizados visuais do BI, 
-										como: gráficos de colunas clusterizado, cards, segmentação de dados, gráficos de dispersão, árvore hierarquica, gráfico de pizza, 
-										matriz, gráfico de colunas agrupadas e linhas e gráfico de linhas.</p>
-								</header>
-								<video controls poster="images/picMark.jpg" width="100%" height="100%">
-									<source  src="images/ProjetoMarketing.mp4" type="video/mp4">
-									<source src="images/ProjetoMarketing.mp4" type="video/webm">
-									<source src="images/ProjetoMarketing.mp4" type="video/ogg">
-									<object>
-									  <embed src="images/picMark.jpg" type="application/x-shockwave-flash" 
-									  allowfullscreen="false" allowscriptaccess="always">  		
-									</object>
-									Formato não suportado  
-								  </video>
-							</article>
-
-						<!-- Posts -->
-						<article class="post featured">
-							<header class="major">
-								<span class="date">1 de Maio de 2023</span>
-								<h2><a href="#">BI Comercial<br /></a></h2>
-								<p>Dashboard construído para compreender a performance de vendas de uma empresa fictícia por diferentes ângulos, usando dados fictícios para este trabalho. 
-									Foram utilizados recursos do BI como a Narrativa Inteligente, Principais Influenciadores, 
-									Gráfico de Faixas e criação de menu interativo como índice do Dashboard.</p>
-							</header> 
-							<video controls poster="images/picCom.jpg" width="100%" height="100%">
-								<source src="images/ProjetoComercial.mp4" type="video/mp4">
-								<source src="images/ProjetoComercial.mp4" type="video/webm">
-								<source src="images/ProjetoComercial.mp4" type="video/ogg">
-								<object>
-								  <embed src="images/picCom.jpg" type="application/x-shockwave-flash" 
-								  allowfullscreen="false" allowscriptaccess="always">  		
-								</object>
-								Formato não suportado  
-							  </video>
-						</article>						
-					</div>
-
+	
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
